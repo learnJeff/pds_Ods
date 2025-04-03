@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PDI × ODS Correlation Diagram</title>
+  <script src="https://unpkg.com/cytoscape@3.23.0/dist/cytoscape.min.js"></script>
+  <style>
+    body { margin: 0; }
+    #cy {
+      width: 100%;
+      height: 100vh;
+      border: 1px solid #ccc;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="cy"></div>
+  <script>
+    fetch('PDI_ODS_Cytoscape.json')
+      .then(res => res.json())
+      .then(data => {
+        // Add type for node styling
+        data.elements.nodes.forEach(node => {
+          node.data.type = node.data.id.startsWith("PDI") ? "pdi" : "ods";
+        });
+
+        cytoscape({
+          container: document.getElementById('cy'),
+          elements: data.elements,
+          style: [
+            {
+              selector: 'node[type="pdi"]',
+              style: {
+                'background-color': '#dae8fc',
+                'border-color': '#6c8ebf',
+                'border-width': 2,
+                'label': 'data(label)',
+                'color': '#000',
+                'text-outline-width': 0
+              }
+            },
+            {
+              selector: 'node[type="ods"]',
+              style: {
+                'background-color': '#f8cecc',
+                'border-color': '#b85450',
+                'border-width': 2,
+                'label': 'data(label)',
+                'color': '#000',
+                'text-outline-width': 0
+              }
+            },
+            {
+              selector: 'edge',
+              style: {
+                'width': 2,
+                'line-color': '#888',
+                'target-arrow-shape': 'triangle',
+                'target-arrow-color': '#888',
+                'curve-style': 'bezier'
+              }
+            }
+          ],
+          layout: {
+            name: 'cose',
+            padding: 20
+          }
+        });
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,530 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "PDI1",
+          "label": "PDI 1"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS10",
+          "label": "ODS 10"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS8",
+          "label": "ODS 8"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS4",
+          "label": "ODS 4"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI2",
+          "label": "PDI 2"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS9",
+          "label": "ODS 9"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI3",
+          "label": "PDI 3"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI4",
+          "label": "PDI 4"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS17",
+          "label": "ODS 17"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI5",
+          "label": "PDI 5"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS11",
+          "label": "ODS 11"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS3",
+          "label": "ODS 3"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI6",
+          "label": "PDI 6"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS16",
+          "label": "ODS 16"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI7",
+          "label": "PDI 7"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI8",
+          "label": "PDI 8"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI9",
+          "label": "PDI 9"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI10",
+          "label": "PDI 10"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI11",
+          "label": "PDI 11"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI12",
+          "label": "PDI 12"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI13",
+          "label": "PDI 13"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI14",
+          "label": "PDI 14"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI15",
+          "label": "PDI 15"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI16",
+          "label": "PDI 16"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI17",
+          "label": "PDI 17"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI18",
+          "label": "PDI 18"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI19",
+          "label": "PDI 19"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI20",
+          "label": "PDI 20"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI21",
+          "label": "PDI 21"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI22",
+          "label": "PDI 22"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS13",
+          "label": "ODS 13"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI23",
+          "label": "PDI 23"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI24",
+          "label": "PDI 24"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI25",
+          "label": "PDI 25"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI26",
+          "label": "PDI 26"
+        }
+      },
+      {
+        "data": {
+          "id": "ODS12",
+          "label": "ODS 12"
+        }
+      },
+      {
+        "data": {
+          "id": "PDI27",
+          "label": "PDI 27"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "source": "PDI1",
+          "target": "ODS10"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI1",
+          "target": "ODS8"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI1",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI2",
+          "target": "ODS9"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI2",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI3",
+          "target": "ODS10"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI3",
+          "target": "ODS8"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI3",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI4",
+          "target": "ODS9"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI4",
+          "target": "ODS17"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI5",
+          "target": "ODS11"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI5",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI5",
+          "target": "ODS3"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI6",
+          "target": "ODS16"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI6",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI7",
+          "target": "ODS9"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI7",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI8",
+          "target": "ODS10"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI8",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI9",
+          "target": "ODS16"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI9",
+          "target": "ODS10"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI10",
+          "target": "ODS16"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI11",
+          "target": "ODS10"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI11",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI12",
+          "target": "ODS10"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI12",
+          "target": "ODS11"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI13",
+          "target": "ODS8"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI13",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI14",
+          "target": "ODS11"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI14",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI15",
+          "target": "ODS9"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI16",
+          "target": "ODS17"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI17",
+          "target": "ODS17"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI18",
+          "target": "ODS16"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI18",
+          "target": "ODS17"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI19",
+          "target": "ODS9"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI19",
+          "target": "ODS17"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI20",
+          "target": "ODS16"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI21",
+          "target": "ODS9"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI21",
+          "target": "ODS16"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI22",
+          "target": "ODS13"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI22",
+          "target": "ODS11"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI23",
+          "target": "ODS16"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI24",
+          "target": "ODS16"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI24",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI25",
+          "target": "ODS13"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI25",
+          "target": "ODS11"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI26",
+          "target": "ODS12"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI27",
+          "target": "ODS4"
+        }
+      },
+      {
+        "data": {
+          "source": "PDI27",
+          "target": "ODS17"
+        }
+      }
+    ]
+  }
+}
